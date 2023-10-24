@@ -4,7 +4,7 @@
 #include "lists.h"
 
 /**
- * main - check the code for Holberton School students.
+ * main - check the code for ALX students.
  *
  * Return: Always EXIT_SUCCESS.
  */
@@ -21,6 +21,7 @@ int main(void)
 	add_dnodeint_end(&head, 98);
 	add_dnodeint_end(&head, 402);
 	add_dnodeint_end(&head, 1024);
+
 	print_dlistint(head);
 	printf("-----------------\n");
 	delete_dnodeint_at_index(&head, 5);
